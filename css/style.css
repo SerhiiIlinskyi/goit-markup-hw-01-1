@@ -1,0 +1,451 @@
+/**---Основні кольори**/
+:root {
+    --brand-color-title: #212121;
+    --brand-color-text: #757575;
+    --brand-color-substrate: #2f303a;
+    --brand-color-basic: #2196f3;
+    --brand-color-name: #ffffff;
+    --brand-color-line: #ececec;
+    --brand-color-back: #f5f4fa;
+    --brand-color-backgraund: rgba(47, 48, 58, 0.4);
+    --brand-color-nummer: rgba(245, 244, 250, 1);
+    --brand-color-link: #afb1b8;
+    --brand-color-recht: rgba(238, 238, 238, 1);
+    --brand-color-schadow: #e5e5e5;
+    --brand-color-imgbox: rgb(47, 48, 58, 0.8);
+    --brand-color-backdrop-index: rgba(0, 0, 0, 0.2);
+    --brand-color-basic-overlay: rgba(33, 150, 243, 0.9);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: Roboto;
+    color: var(--brand-color-title);
+    font-size: 14px;
+    line-height: 1.72;
+    background-color: var(--brand-color-name);
+    letter-spacing: 0.03em;
+    font-family: Roboto;
+    position: relative;
+    width: 1600px;
+     height: 2349px;
+ 
+    
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  
+/**----верхня лінія-------**/
+.header {
+    width: 1600px;
+    height: 80px;
+    background-color: ;
+
+}
+  
+.header-list {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.web-studio-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.17;
+    color: var(--brand-color-basic);
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+  
+.header-studio {
+    color: black ;
+
+}
+
+.header-free {
+    display: flex;
+  margin-left: 93px
+    
+}
+
+.header-free-item {
+    font-weight: 500;
+    line-height: 1.17;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.header-item-color {
+    color: var(--brand-color-title);
+}
+
+.header-two {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+
+}
+
+.header-two-item {
+
+}
+  
+.header-email {
+    font-family: Roboto;
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+
+}
+
+.header-tel {
+    font-family: Roboto;
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+}
+  
+
+/**----шапка---------------**/
+
+.hero {
+    max-width: 1600px;
+    height: 600px;
+    background-color: rgba(196, 196, 196, 0.1);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../img/hero-foto.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+   
+/*   background-color: var(--brand-color-substrate); */
+    
+
+}
+
+.effective {
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--brand-color-name);
+    font-weight: 900;
+    margin-bottom: 30px;
+  
+}
+
+.to-order {
+
+  
+}
+
+  
+/**----Особливості--------**/
+
+
+.section-help {
+    padding-bottom: 0px;
+}
+  
+  
+.icon-item {
+
+}
+  
+
+.peculiarities {
+    display: flex;
+    align-items: stretch;
+    padding-top: 0px;
+}
+
+.block{
+
+}
+
+.block-name {
+
+}
+
+.block-text {
+
+}
+
+
+/**----Чим займаємосся----**/
+.how {
+
+}
+   
+.how-a {
+
+}
+
+.img-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img-box-a {
+
+}
+
+.box-imgbox {
+
+}
+
+.overplay-a {
+
+}
+
+
+
+  /**----Наша команда*------**/
+ 
+  
+
+.ourteam {
+    background: var(--brand-color-back);
+
+}
+.our {
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--brand-color-title);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+
+.fotogrup {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 30px);
+
+}
+.foto {
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: var(--brand-color-name);
+
+}
+
+.name-i-s {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.name-img {
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--brand-color-title);
+    font-weight: 500;
+
+}
+
+.name-spec {
+    font-size: 16px;
+    color: var(--brand-color-text);
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 16px;
+
+}
+
+.list {
+
+}
+
+.social-list {
+
+}
+
+.social-item {
+
+}
+
+.manager-item {
+
+}
+  
+.social-link {
+
+}
+.social-icon {
+
+}  
+  
+  
+/**----Постійні клієнти---**/
+.customers {
+
+}
+.customers-reg {
+
+}
+.customers-social {
+
+}
+.customers-item {
+
+}
+
+.customers-link {
+
+}
+
+.customers-icon {
+
+}
+
+
+/**----Підвал-------------**/
+  
+.footer {
+    background-color: var(--brand-color-substrate);
+    font-weight: 400;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+
+}
+
+.footer-alle {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.web-studio-footer {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.17;
+    color: var(--brand-color-basic);
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.footer-studio {
+    color: var(--brand-color-name);
+
+}
+
+.footer-address {
+    color: var(--brand-color-name);
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+
+}
+
+.footer-address-item {
+
+}
+
+.footer-a {
+    font-style: normal;
+    font-weight: 400;
+    color: var(--brand-color-text);
+     text-decoration: none;
+
+}
+  
+.footer-social {
+
+}
+  
+.footer-join {
+
+}
+
+.footer-list {
+
+}
+
+.footer-item {
+
+}
+
+.footer-item-social {
+
+}
+
+.footer-link {
+
+}
+
+.footer-link-social {
+
+}
+.footer-icon {
+
+}
+  
