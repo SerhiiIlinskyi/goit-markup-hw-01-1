@@ -109,7 +109,7 @@ body {
 
 .header-free {
     display: flex;
-  margin-left: 93px
+    margin-left: 93px
     
 }
 
@@ -196,7 +196,15 @@ body {
 }
 
 .to-order {
-
+    background-color: var(--brand-color-basic);
+        font-size: 16px;
+        line-height: 1.82;
+        color: var(--brand-color-name);
+        font-weight: 700;
+        cursor: pointer;
+        border-radius: 4px;
+        width: 200px;
+        height: 50px;
   
 }
 
@@ -414,7 +422,7 @@ body {
     font-style: normal;
     font-weight: 400;
     color: var(--brand-color-text);
-     text-decoration: none;
+    text-decoration: none;
 
 }
   
@@ -449,3 +457,182 @@ body {
 
 }
   
+
+
+/**--------PORTFOLIO-----------**/
+
+/**--------загальний постер----**/
+.poster {
+    display: block;
+    padding-bottom: 94px;
+
+}
+
+.section-help {
+    padding-bottom: 0px;
+    
+}
+
+.button {
+    font-size: 16px;
+        line-height: 1.6;
+        color: var(--brand-color-title);
+        font-weight: 500;
+}
+
+.poster-all {
+
+}
+
+/**--------кнопки постеру------**/
+
+.poster-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.poster-but-all {
+    text-align: center;
+
+}
+.poster-but-all:not(:last-child) {
+    margin-right: 8px;
+}
+
+.poster-but-navig {
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.button .poster-but-navig:hover,
+.button .poster-but-navig:focus {
+    background-color: var(--brand-color-basic);
+    color: var(--brand-color-name);
+    box-shadow: 0 2px 2px 0 var(--brand-color-link);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+
+.poster-but-a {
+    height: 38px;
+    width: 73px;
+
+}
+
+.poster-but-b{
+    height: 38px;
+    width: 128px;
+    
+}
+
+.poster-but-c {
+    height: 38px;
+    width: 145px;
+    
+}
+
+.poster-but-d {
+    height: 38px;
+    width: 103px;
+    
+}
+
+.poster-but-e {
+    height: 38px;
+    width: 130px;
+    
+}
+
+
+
+
+/**--------постер---------**/
+
+.poster-navig {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.postre-blank {
+    display: flex;
+    border-bottom: 1px solid var(--brand-color-recht);
+
+}
+
+.postre-blank {
+    display: flex;
+    border-bottom: 1px solid var(--brand-color-recht);
+}
+
+.postre-blank:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.postre-blank:not(:nth-last-child(-n + 3)) {
+    margin-bottom: 30px;
+}
+
+
+.poster-box {
+    position: absolute;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+
+}
+
+.postre-blank:hover .overlay,
+.postre-blank:focus .overlay {
+    transform: translatex(0);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+}
+.overlay {
+    padding-top: 63px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 370px;
+    height: 294px;
+    color: var(--brand-color-name);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    height: 1.55;
+    background-color: var(--brand-color-basic-overlay);
+    transform: translatey(100%);
+    transition: transform 250ms;
+    /*   transition-duration: cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+.poster-foto {
+    text-decoration: none;
+
+}
+
+.poster-conteiner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+
+}
+
+.poster-name {
+    font-size: 18px;
+    line-height: 2;
+    color: var(--brand-color-title);
+    font-weight: 700;
+    margin-bottom: 4px;
+
+}
+
+.poster-text {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--brand-color-text);
+    font-weight: 400;
+}
